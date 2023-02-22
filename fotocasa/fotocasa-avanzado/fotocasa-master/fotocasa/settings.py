@@ -1,5 +1,24 @@
 BOT_NAME = 'fotocasa'
 
+DATABASE = {
+    'drivername': 'postgres',
+    'host': os.environ.get('DB_HOST', 'localhost'),
+    'port': os.environ.get('DB_PORT', '5432'),
+    'username': os.environ.get('DB_USERNAME', 'user'),
+    'password': os.environ.get('DB_PASSWORD', 'pwd'),
+    'database': os.environ.get('DB_NAME', 'mydb')
+}
+
+ITEM_PIPELINES = {
+    'fotocasa.pipelines.PostgresDBPipeline': 330,
+
+
+    'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+    'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
+}
+
+ROTATING_PROXY_LIST_PATH = 'fotocasa/proxies.txt'
+
 SPIDER_MODULES = ['fotocasa.spiders']
 NEWSPIDER_MODULE = 'fotocasa.spiders'
 
@@ -38,5 +57,3 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'scrapy_useragents.downloadermiddlewares.useragents.UserAgentsMiddleware': 500,
 }
-
-ROTATING_PROXY_LIST_PATH = 'fotocasa/proxies.txt'
