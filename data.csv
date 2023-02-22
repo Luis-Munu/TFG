@@ -1,0 +1,751 @@
+,price,type,title,mobile,zone,id,rooms,bathrooms,m2,elevator,floor,balcony,terrace,heating,air_conditioning,parking,pool
+0,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,0,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+1,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,1,3,2,95,Yes,4,No,No,Yes,No,No,No
+2,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,2,5,3,193,No,Unknown,No,No,No,No,No,No
+3,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,3,4,2,109,Yes,1,No,Yes,No,No,No,No
+4,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,4,4,2,119,Yes,2,No,Yes,No,No,No,No
+5,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,5,3,2,141,Yes,1,No,Yes,No,No,No,No
+6,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,6,4,2,119,Yes,6,No,No,Yes,No,No,No
+7,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,7,3,2,89,Yes,7,No,No,No,No,Yes,No
+8,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,8,3,2,102,Yes,5,No,Yes,No,No,No,No
+9,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,9,3,2,112,Yes,6,No,No,No,No,Yes,No
+10,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,10,4,2,83,No,Unknown,Yes,No,No,No,No,No
+11,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,11,4,2,110,Yes,2,No,Yes,No,No,No,No
+12,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,12,1,1,32,No,1,No,No,Yes,No,No,No
+13,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,13,1,1,95,Yes,1,No,Yes,No,No,No,No
+14,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,14,3,2,91,Yes,4,No,No,No,No,No,No
+15,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,15,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+16,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,16,3,1,58,No,4,No,No,No,No,No,No
+17,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,17,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+18,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,18,2,2,140,No,Unknown,No,No,No,No,No,No
+19,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,19,3,2,110,No,Unknown,No,No,No,Yes,No,No
+20,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,20,2,2,102,No,Unknown,No,No,No,No,No,No
+21,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,21,5,3,130,No,Unknown,No,No,No,No,No,No
+22,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,22,3,2,81,No,Unknown,No,No,No,No,No,No
+23,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,23,3,1,105,No,Unknown,No,No,No,No,No,No
+24,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,24,5,3,160,No,Unknown,No,No,No,No,No,No
+25,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,25,5,2,130,No,Unknown,No,No,No,No,No,No
+26,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,26,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+27,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,27,4,3,210,No,Unknown,No,No,No,No,No,No
+28,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,28,2,1,75,No,Unknown,No,No,No,No,No,No
+29,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,29,2,1,70,No,Unknown,No,No,No,No,No,No
+30,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,30,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+31,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,31,3,2,95,Yes,4,No,No,Yes,No,No,No
+32,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,32,5,3,193,No,Unknown,No,No,No,No,No,No
+33,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,33,4,2,109,Yes,1,No,Yes,No,No,No,No
+34,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,34,4,2,119,Yes,2,No,Yes,No,No,No,No
+35,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,35,3,2,141,Yes,1,No,Yes,No,No,No,No
+36,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,36,4,2,119,Yes,6,No,No,Yes,No,No,No
+37,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,37,3,2,89,Yes,7,No,No,No,No,Yes,No
+38,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,38,3,2,102,Yes,5,No,Yes,No,No,No,No
+39,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,39,3,2,112,Yes,6,No,No,No,No,Yes,No
+40,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,40,4,2,83,No,Unknown,Yes,No,No,No,No,No
+41,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,41,4,2,110,Yes,2,No,Yes,No,No,No,No
+42,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,42,1,1,32,No,1,No,No,Yes,No,No,No
+43,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,43,1,1,95,Yes,1,No,Yes,No,No,No,No
+44,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,44,3,2,91,Yes,4,No,No,No,No,No,No
+45,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,45,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+46,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,46,3,1,58,No,4,No,No,No,No,No,No
+47,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,47,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+48,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,48,2,2,140,No,Unknown,No,No,No,No,No,No
+49,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,49,3,2,110,No,Unknown,No,No,No,Yes,No,No
+50,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,50,2,2,102,No,Unknown,No,No,No,No,No,No
+51,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,51,5,3,130,No,Unknown,No,No,No,No,No,No
+52,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,52,3,2,81,No,Unknown,No,No,No,No,No,No
+53,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,53,3,1,105,No,Unknown,No,No,No,No,No,No
+54,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,54,5,3,160,No,Unknown,No,No,No,No,No,No
+55,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,55,5,2,130,No,Unknown,No,No,No,No,No,No
+56,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,56,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+57,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,57,4,3,210,No,Unknown,No,No,No,No,No,No
+58,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,58,2,1,75,No,Unknown,No,No,No,No,No,No
+59,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,59,2,1,70,No,Unknown,No,No,No,No,No,No
+60,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,60,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+61,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,61,3,2,95,Yes,4,No,No,Yes,No,No,No
+62,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,62,5,3,193,No,Unknown,No,No,No,No,No,No
+63,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,63,4,2,109,Yes,1,No,Yes,No,No,No,No
+64,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,64,4,2,119,Yes,2,No,Yes,No,No,No,No
+65,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,65,3,2,141,Yes,1,No,Yes,No,No,No,No
+66,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,66,4,2,119,Yes,6,No,No,Yes,No,No,No
+67,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,67,3,2,89,Yes,7,No,No,No,No,Yes,No
+68,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,68,3,2,102,Yes,5,No,Yes,No,No,No,No
+69,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,69,3,2,112,Yes,6,No,No,No,No,Yes,No
+70,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,70,4,2,83,No,Unknown,Yes,No,No,No,No,No
+71,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,71,4,2,110,Yes,2,No,Yes,No,No,No,No
+72,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,72,1,1,32,No,1,No,No,Yes,No,No,No
+73,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,73,1,1,95,Yes,1,No,Yes,No,No,No,No
+74,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,74,3,2,91,Yes,4,No,No,No,No,No,No
+75,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,75,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+76,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,76,3,1,58,No,4,No,No,No,No,No,No
+77,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,77,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+78,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,78,2,2,140,No,Unknown,No,No,No,No,No,No
+79,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,79,3,2,110,No,Unknown,No,No,No,Yes,No,No
+80,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,80,2,2,102,No,Unknown,No,No,No,No,No,No
+81,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,81,5,3,130,No,Unknown,No,No,No,No,No,No
+82,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,82,3,2,81,No,Unknown,No,No,No,No,No,No
+83,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,83,3,1,105,No,Unknown,No,No,No,No,No,No
+84,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,84,5,3,160,No,Unknown,No,No,No,No,No,No
+85,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,85,5,2,130,No,Unknown,No,No,No,No,No,No
+86,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,86,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+87,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,87,4,3,210,No,Unknown,No,No,No,No,No,No
+88,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,88,2,1,75,No,Unknown,No,No,No,No,No,No
+89,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,89,2,1,70,No,Unknown,No,No,No,No,No,No
+90,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,90,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+91,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,91,3,2,95,Yes,4,No,No,Yes,No,No,No
+92,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,92,5,3,193,No,Unknown,No,No,No,No,No,No
+93,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,93,4,2,109,Yes,1,No,Yes,No,No,No,No
+94,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,94,4,2,119,Yes,2,No,Yes,No,No,No,No
+95,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,95,3,2,141,Yes,1,No,Yes,No,No,No,No
+96,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,96,4,2,119,Yes,6,No,No,Yes,No,No,No
+97,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,97,3,2,89,Yes,7,No,No,No,No,Yes,No
+98,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,98,3,2,102,Yes,5,No,Yes,No,No,No,No
+99,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,99,3,2,112,Yes,6,No,No,No,No,Yes,No
+100,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,100,4,2,83,No,Unknown,Yes,No,No,No,No,No
+101,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,101,4,2,110,Yes,2,No,Yes,No,No,No,No
+102,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,102,1,1,32,No,1,No,No,Yes,No,No,No
+103,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,103,1,1,95,Yes,1,No,Yes,No,No,No,No
+104,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,104,3,2,91,Yes,4,No,No,No,No,No,No
+105,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,105,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+106,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,106,3,1,58,No,4,No,No,No,No,No,No
+107,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,107,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+108,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,108,2,2,140,No,Unknown,No,No,No,No,No,No
+109,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,109,3,2,110,No,Unknown,No,No,No,Yes,No,No
+110,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,110,2,2,102,No,Unknown,No,No,No,No,No,No
+111,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,111,5,3,130,No,Unknown,No,No,No,No,No,No
+112,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,112,3,2,81,No,Unknown,No,No,No,No,No,No
+113,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,113,3,1,105,No,Unknown,No,No,No,No,No,No
+114,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,114,5,3,160,No,Unknown,No,No,No,No,No,No
+115,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,115,5,2,130,No,Unknown,No,No,No,No,No,No
+116,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,116,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+117,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,117,4,3,210,No,Unknown,No,No,No,No,No,No
+118,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,118,2,1,75,No,Unknown,No,No,No,No,No,No
+119,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,119,2,1,70,No,Unknown,No,No,No,No,No,No
+120,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,120,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+121,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,121,3,2,95,Yes,4,No,No,Yes,No,No,No
+122,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,122,5,3,193,No,Unknown,No,No,No,No,No,No
+123,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,123,4,2,109,Yes,1,No,Yes,No,No,No,No
+124,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,124,4,2,119,Yes,2,No,Yes,No,No,No,No
+125,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,125,3,2,141,Yes,1,No,Yes,No,No,No,No
+126,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,126,4,2,119,Yes,6,No,No,Yes,No,No,No
+127,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,127,3,2,89,Yes,7,No,No,No,No,Yes,No
+128,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,128,3,2,102,Yes,5,No,Yes,No,No,No,No
+129,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,129,3,2,112,Yes,6,No,No,No,No,Yes,No
+130,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,130,4,2,83,No,Unknown,Yes,No,No,No,No,No
+131,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,131,4,2,110,Yes,2,No,Yes,No,No,No,No
+132,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,132,1,1,32,No,1,No,No,Yes,No,No,No
+133,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,133,1,1,95,Yes,1,No,Yes,No,No,No,No
+134,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,134,3,2,91,Yes,4,No,No,No,No,No,No
+135,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,135,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+136,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,136,3,1,58,No,4,No,No,No,No,No,No
+137,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,137,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+138,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,138,2,2,140,No,Unknown,No,No,No,No,No,No
+139,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,139,3,2,110,No,Unknown,No,No,No,Yes,No,No
+140,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,140,2,2,102,No,Unknown,No,No,No,No,No,No
+141,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,141,5,3,130,No,Unknown,No,No,No,No,No,No
+142,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,142,3,2,81,No,Unknown,No,No,No,No,No,No
+143,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,143,3,1,105,No,Unknown,No,No,No,No,No,No
+144,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,144,5,3,160,No,Unknown,No,No,No,No,No,No
+145,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,145,5,2,130,No,Unknown,No,No,No,No,No,No
+146,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,146,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+147,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,147,4,3,210,No,Unknown,No,No,No,No,No,No
+148,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,148,2,1,75,No,Unknown,No,No,No,No,No,No
+149,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,149,2,1,70,No,Unknown,No,No,No,No,No,No
+150,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,150,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+151,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,151,3,2,95,Yes,4,No,No,Yes,No,No,No
+152,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,152,5,3,193,No,Unknown,No,No,No,No,No,No
+153,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,153,4,2,109,Yes,1,No,Yes,No,No,No,No
+154,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,154,4,2,119,Yes,2,No,Yes,No,No,No,No
+155,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,155,3,2,141,Yes,1,No,Yes,No,No,No,No
+156,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,156,4,2,119,Yes,6,No,No,Yes,No,No,No
+157,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,157,3,2,89,Yes,7,No,No,No,No,Yes,No
+158,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,158,3,2,102,Yes,5,No,Yes,No,No,No,No
+159,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,159,3,2,112,Yes,6,No,No,No,No,Yes,No
+160,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,160,4,2,83,No,Unknown,Yes,No,No,No,No,No
+161,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,161,4,2,110,Yes,2,No,Yes,No,No,No,No
+162,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,162,1,1,32,No,1,No,No,Yes,No,No,No
+163,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,163,1,1,95,Yes,1,No,Yes,No,No,No,No
+164,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,164,3,2,91,Yes,4,No,No,No,No,No,No
+165,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,165,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+166,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,166,3,1,58,No,4,No,No,No,No,No,No
+167,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,167,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+168,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,168,2,2,140,No,Unknown,No,No,No,No,No,No
+169,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,169,3,2,110,No,Unknown,No,No,No,Yes,No,No
+170,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,170,2,2,102,No,Unknown,No,No,No,No,No,No
+171,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,171,5,3,130,No,Unknown,No,No,No,No,No,No
+172,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,172,3,2,81,No,Unknown,No,No,No,No,No,No
+173,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,173,3,1,105,No,Unknown,No,No,No,No,No,No
+174,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,174,5,3,160,No,Unknown,No,No,No,No,No,No
+175,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,175,5,2,130,No,Unknown,No,No,No,No,No,No
+176,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,176,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+177,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,177,4,3,210,No,Unknown,No,No,No,No,No,No
+178,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,178,2,1,75,No,Unknown,No,No,No,No,No,No
+179,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,179,2,1,70,No,Unknown,No,No,No,No,No,No
+180,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,180,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+181,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,181,3,2,95,Yes,4,No,No,Yes,No,No,No
+182,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,182,5,3,193,No,Unknown,No,No,No,No,No,No
+183,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,183,4,2,109,Yes,1,No,Yes,No,No,No,No
+184,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,184,4,2,119,Yes,2,No,Yes,No,No,No,No
+185,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,185,3,2,141,Yes,1,No,Yes,No,No,No,No
+186,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,186,4,2,119,Yes,6,No,No,Yes,No,No,No
+187,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,187,3,2,89,Yes,7,No,No,No,No,Yes,No
+188,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,188,3,2,102,Yes,5,No,Yes,No,No,No,No
+189,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,189,3,2,112,Yes,6,No,No,No,No,Yes,No
+190,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,190,4,2,83,No,Unknown,Yes,No,No,No,No,No
+191,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,191,4,2,110,Yes,2,No,Yes,No,No,No,No
+192,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,192,1,1,32,No,1,No,No,Yes,No,No,No
+193,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,193,1,1,95,Yes,1,No,Yes,No,No,No,No
+194,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,194,3,2,91,Yes,4,No,No,No,No,No,No
+195,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,195,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+196,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,196,3,1,58,No,4,No,No,No,No,No,No
+197,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,197,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+198,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,198,2,2,140,No,Unknown,No,No,No,No,No,No
+199,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,199,3,2,110,No,Unknown,No,No,No,Yes,No,No
+200,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,200,2,2,102,No,Unknown,No,No,No,No,No,No
+201,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,201,5,3,130,No,Unknown,No,No,No,No,No,No
+202,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,202,3,2,81,No,Unknown,No,No,No,No,No,No
+203,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,203,3,1,105,No,Unknown,No,No,No,No,No,No
+204,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,204,5,3,160,No,Unknown,No,No,No,No,No,No
+205,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,205,5,2,130,No,Unknown,No,No,No,No,No,No
+206,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,206,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+207,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,207,4,3,210,No,Unknown,No,No,No,No,No,No
+208,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,208,2,1,75,No,Unknown,No,No,No,No,No,No
+209,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,209,2,1,70,No,Unknown,No,No,No,No,No,No
+210,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,210,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+211,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,211,3,2,95,Yes,4,No,No,Yes,No,No,No
+212,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,212,5,3,193,No,Unknown,No,No,No,No,No,No
+213,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,213,4,2,109,Yes,1,No,Yes,No,No,No,No
+214,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,214,4,2,119,Yes,2,No,Yes,No,No,No,No
+215,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,215,3,2,141,Yes,1,No,Yes,No,No,No,No
+216,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,216,4,2,119,Yes,6,No,No,Yes,No,No,No
+217,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,217,3,2,89,Yes,7,No,No,No,No,Yes,No
+218,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,218,3,2,102,Yes,5,No,Yes,No,No,No,No
+219,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,219,3,2,112,Yes,6,No,No,No,No,Yes,No
+220,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,220,4,2,83,No,Unknown,Yes,No,No,No,No,No
+221,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,221,4,2,110,Yes,2,No,Yes,No,No,No,No
+222,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,222,1,1,32,No,1,No,No,Yes,No,No,No
+223,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,223,1,1,95,Yes,1,No,Yes,No,No,No,No
+224,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,224,3,2,91,Yes,4,No,No,No,No,No,No
+225,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,225,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+226,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,226,3,1,58,No,4,No,No,No,No,No,No
+227,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,227,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+228,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,228,2,2,140,No,Unknown,No,No,No,No,No,No
+229,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,229,3,2,110,No,Unknown,No,No,No,Yes,No,No
+230,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,230,2,2,102,No,Unknown,No,No,No,No,No,No
+231,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,231,5,3,130,No,Unknown,No,No,No,No,No,No
+232,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,232,3,2,81,No,Unknown,No,No,No,No,No,No
+233,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,233,3,1,105,No,Unknown,No,No,No,No,No,No
+234,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,234,5,3,160,No,Unknown,No,No,No,No,No,No
+235,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,235,5,2,130,No,Unknown,No,No,No,No,No,No
+236,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,236,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+237,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,237,4,3,210,No,Unknown,No,No,No,No,No,No
+238,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,238,2,1,75,No,Unknown,No,No,No,No,No,No
+239,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,239,2,1,70,No,Unknown,No,No,No,No,No,No
+240,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,240,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+241,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,241,3,2,95,Yes,4,No,No,Yes,No,No,No
+242,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,242,5,3,193,No,Unknown,No,No,No,No,No,No
+243,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,243,4,2,109,Yes,1,No,Yes,No,No,No,No
+244,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,244,4,2,119,Yes,2,No,Yes,No,No,No,No
+245,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,245,3,2,141,Yes,1,No,Yes,No,No,No,No
+246,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,246,4,2,119,Yes,6,No,No,Yes,No,No,No
+247,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,247,3,2,89,Yes,7,No,No,No,No,Yes,No
+248,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,248,3,2,102,Yes,5,No,Yes,No,No,No,No
+249,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,249,3,2,112,Yes,6,No,No,No,No,Yes,No
+250,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,250,4,2,83,No,Unknown,Yes,No,No,No,No,No
+251,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,251,4,2,110,Yes,2,No,Yes,No,No,No,No
+252,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,252,1,1,32,No,1,No,No,Yes,No,No,No
+253,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,253,1,1,95,Yes,1,No,Yes,No,No,No,No
+254,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,254,3,2,91,Yes,4,No,No,No,No,No,No
+255,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,255,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+256,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,256,3,1,58,No,4,No,No,No,No,No,No
+257,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,257,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+258,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,258,2,2,140,No,Unknown,No,No,No,No,No,No
+259,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,259,3,2,110,No,Unknown,No,No,No,Yes,No,No
+260,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,260,2,2,102,No,Unknown,No,No,No,No,No,No
+261,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,261,5,3,130,No,Unknown,No,No,No,No,No,No
+262,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,262,3,2,81,No,Unknown,No,No,No,No,No,No
+263,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,263,3,1,105,No,Unknown,No,No,No,No,No,No
+264,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,264,5,3,160,No,Unknown,No,No,No,No,No,No
+265,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,265,5,2,130,No,Unknown,No,No,No,No,No,No
+266,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,266,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+267,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,267,4,3,210,No,Unknown,No,No,No,No,No,No
+268,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,268,2,1,75,No,Unknown,No,No,No,No,No,No
+269,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,269,2,1,70,No,Unknown,No,No,No,No,No,No
+270,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,270,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+271,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,271,3,2,95,Yes,4,No,No,Yes,No,No,No
+272,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,272,5,3,193,No,Unknown,No,No,No,No,No,No
+273,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,273,4,2,109,Yes,1,No,Yes,No,No,No,No
+274,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,274,4,2,119,Yes,2,No,Yes,No,No,No,No
+275,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,275,3,2,141,Yes,1,No,Yes,No,No,No,No
+276,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,276,4,2,119,Yes,6,No,No,Yes,No,No,No
+277,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,277,3,2,89,Yes,7,No,No,No,No,Yes,No
+278,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,278,3,2,102,Yes,5,No,Yes,No,No,No,No
+279,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,279,3,2,112,Yes,6,No,No,No,No,Yes,No
+280,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,280,4,2,83,No,Unknown,Yes,No,No,No,No,No
+281,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,281,4,2,110,Yes,2,No,Yes,No,No,No,No
+282,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,282,1,1,32,No,1,No,No,Yes,No,No,No
+283,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,283,1,1,95,Yes,1,No,Yes,No,No,No,No
+284,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,284,3,2,91,Yes,4,No,No,No,No,No,No
+285,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,285,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+286,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,286,3,1,58,No,4,No,No,No,No,No,No
+287,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,287,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+288,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,288,2,2,140,No,Unknown,No,No,No,No,No,No
+289,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,289,3,2,110,No,Unknown,No,No,No,Yes,No,No
+290,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,290,2,2,102,No,Unknown,No,No,No,No,No,No
+291,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,291,5,3,130,No,Unknown,No,No,No,No,No,No
+292,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,292,3,2,81,No,Unknown,No,No,No,No,No,No
+293,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,293,3,1,105,No,Unknown,No,No,No,No,No,No
+294,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,294,5,3,160,No,Unknown,No,No,No,No,No,No
+295,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,295,5,2,130,No,Unknown,No,No,No,No,No,No
+296,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,296,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+297,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,297,4,3,210,No,Unknown,No,No,No,No,No,No
+298,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,298,2,1,75,No,Unknown,No,No,No,No,No,No
+299,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,299,2,1,70,No,Unknown,No,No,No,No,No,No
+300,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,300,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+301,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,301,3,2,95,Yes,4,No,No,Yes,No,No,No
+302,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,302,5,3,193,No,Unknown,No,No,No,No,No,No
+303,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,303,4,2,109,Yes,1,No,Yes,No,No,No,No
+304,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,304,4,2,119,Yes,2,No,Yes,No,No,No,No
+305,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,305,3,2,141,Yes,1,No,Yes,No,No,No,No
+306,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,306,4,2,119,Yes,6,No,No,Yes,No,No,No
+307,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,307,3,2,89,Yes,7,No,No,No,No,Yes,No
+308,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,308,3,2,102,Yes,5,No,Yes,No,No,No,No
+309,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,309,3,2,112,Yes,6,No,No,No,No,Yes,No
+310,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,310,4,2,83,No,Unknown,Yes,No,No,No,No,No
+311,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,311,4,2,110,Yes,2,No,Yes,No,No,No,No
+312,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,312,1,1,32,No,1,No,No,Yes,No,No,No
+313,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,313,1,1,95,Yes,1,No,Yes,No,No,No,No
+314,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,314,3,2,91,Yes,4,No,No,No,No,No,No
+315,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,315,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+316,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,316,3,1,58,No,4,No,No,No,No,No,No
+317,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,317,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+318,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,318,2,2,140,No,Unknown,No,No,No,No,No,No
+319,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,319,3,2,110,No,Unknown,No,No,No,Yes,No,No
+320,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,320,2,2,102,No,Unknown,No,No,No,No,No,No
+321,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,321,5,3,130,No,Unknown,No,No,No,No,No,No
+322,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,322,3,2,81,No,Unknown,No,No,No,No,No,No
+323,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,323,3,1,105,No,Unknown,No,No,No,No,No,No
+324,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,324,5,3,160,No,Unknown,No,No,No,No,No,No
+325,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,325,5,2,130,No,Unknown,No,No,No,No,No,No
+326,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,326,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+327,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,327,4,3,210,No,Unknown,No,No,No,No,No,No
+328,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,328,2,1,75,No,Unknown,No,No,No,No,No,No
+329,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,329,2,1,70,No,Unknown,No,No,No,No,No,No
+330,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,330,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+331,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,331,3,2,95,Yes,4,No,No,Yes,No,No,No
+332,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,332,5,3,193,No,Unknown,No,No,No,No,No,No
+333,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,333,4,2,109,Yes,1,No,Yes,No,No,No,No
+334,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,334,4,2,119,Yes,2,No,Yes,No,No,No,No
+335,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,335,3,2,141,Yes,1,No,Yes,No,No,No,No
+336,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,336,4,2,119,Yes,6,No,No,Yes,No,No,No
+337,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,337,3,2,89,Yes,7,No,No,No,No,Yes,No
+338,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,338,3,2,102,Yes,5,No,Yes,No,No,No,No
+339,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,339,3,2,112,Yes,6,No,No,No,No,Yes,No
+340,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,340,4,2,83,No,Unknown,Yes,No,No,No,No,No
+341,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,341,4,2,110,Yes,2,No,Yes,No,No,No,No
+342,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,342,1,1,32,No,1,No,No,Yes,No,No,No
+343,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,343,1,1,95,Yes,1,No,Yes,No,No,No,No
+344,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,344,3,2,91,Yes,4,No,No,No,No,No,No
+345,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,345,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+346,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,346,3,1,58,No,4,No,No,No,No,No,No
+347,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,347,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+348,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,348,2,2,140,No,Unknown,No,No,No,No,No,No
+349,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,349,3,2,110,No,Unknown,No,No,No,Yes,No,No
+350,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,350,2,2,102,No,Unknown,No,No,No,No,No,No
+351,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,351,5,3,130,No,Unknown,No,No,No,No,No,No
+352,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,352,3,2,81,No,Unknown,No,No,No,No,No,No
+353,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,353,3,1,105,No,Unknown,No,No,No,No,No,No
+354,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,354,5,3,160,No,Unknown,No,No,No,No,No,No
+355,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,355,5,2,130,No,Unknown,No,No,No,No,No,No
+356,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,356,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+357,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,357,4,3,210,No,Unknown,No,No,No,No,No,No
+358,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,358,2,1,75,No,Unknown,No,No,No,No,No,No
+359,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,359,2,1,70,No,Unknown,No,No,No,No,No,No
+360,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,360,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+361,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,361,3,2,95,Yes,4,No,No,Yes,No,No,No
+362,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,362,5,3,193,No,Unknown,No,No,No,No,No,No
+363,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,363,4,2,109,Yes,1,No,Yes,No,No,No,No
+364,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,364,4,2,119,Yes,2,No,Yes,No,No,No,No
+365,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,365,3,2,141,Yes,1,No,Yes,No,No,No,No
+366,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,366,4,2,119,Yes,6,No,No,Yes,No,No,No
+367,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,367,3,2,89,Yes,7,No,No,No,No,Yes,No
+368,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,368,3,2,102,Yes,5,No,Yes,No,No,No,No
+369,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,369,3,2,112,Yes,6,No,No,No,No,Yes,No
+370,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,370,4,2,83,No,Unknown,Yes,No,No,No,No,No
+371,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,371,4,2,110,Yes,2,No,Yes,No,No,No,No
+372,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,372,1,1,32,No,1,No,No,Yes,No,No,No
+373,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,373,1,1,95,Yes,1,No,Yes,No,No,No,No
+374,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,374,3,2,91,Yes,4,No,No,No,No,No,No
+375,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,375,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+376,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,376,3,1,58,No,4,No,No,No,No,No,No
+377,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,377,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+378,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,378,2,2,140,No,Unknown,No,No,No,No,No,No
+379,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,379,3,2,110,No,Unknown,No,No,No,Yes,No,No
+380,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,380,2,2,102,No,Unknown,No,No,No,No,No,No
+381,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,381,5,3,130,No,Unknown,No,No,No,No,No,No
+382,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,382,3,2,81,No,Unknown,No,No,No,No,No,No
+383,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,383,3,1,105,No,Unknown,No,No,No,No,No,No
+384,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,384,5,3,160,No,Unknown,No,No,No,No,No,No
+385,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,385,5,2,130,No,Unknown,No,No,No,No,No,No
+386,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,386,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+387,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,387,4,3,210,No,Unknown,No,No,No,No,No,No
+388,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,388,2,1,75,No,Unknown,No,No,No,No,No,No
+389,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,389,2,1,70,No,Unknown,No,No,No,No,No,No
+390,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,390,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+391,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,391,3,2,95,Yes,4,No,No,Yes,No,No,No
+392,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,392,5,3,193,No,Unknown,No,No,No,No,No,No
+393,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,393,4,2,109,Yes,1,No,Yes,No,No,No,No
+394,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,394,4,2,119,Yes,2,No,Yes,No,No,No,No
+395,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,395,3,2,141,Yes,1,No,Yes,No,No,No,No
+396,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,396,4,2,119,Yes,6,No,No,Yes,No,No,No
+397,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,397,3,2,89,Yes,7,No,No,No,No,Yes,No
+398,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,398,3,2,102,Yes,5,No,Yes,No,No,No,No
+399,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,399,3,2,112,Yes,6,No,No,No,No,Yes,No
+400,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,400,4,2,83,No,Unknown,Yes,No,No,No,No,No
+401,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,401,4,2,110,Yes,2,No,Yes,No,No,No,No
+402,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,402,1,1,32,No,1,No,No,Yes,No,No,No
+403,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,403,1,1,95,Yes,1,No,Yes,No,No,No,No
+404,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,404,3,2,91,Yes,4,No,No,No,No,No,No
+405,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,405,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+406,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,406,3,1,58,No,4,No,No,No,No,No,No
+407,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,407,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+408,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,408,2,2,140,No,Unknown,No,No,No,No,No,No
+409,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,409,3,2,110,No,Unknown,No,No,No,Yes,No,No
+410,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,410,2,2,102,No,Unknown,No,No,No,No,No,No
+411,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,411,5,3,130,No,Unknown,No,No,No,No,No,No
+412,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,412,3,2,81,No,Unknown,No,No,No,No,No,No
+413,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,413,3,1,105,No,Unknown,No,No,No,No,No,No
+414,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,414,5,3,160,No,Unknown,No,No,No,No,No,No
+415,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,415,5,2,130,No,Unknown,No,No,No,No,No,No
+416,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,416,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+417,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,417,4,3,210,No,Unknown,No,No,No,No,No,No
+418,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,418,2,1,75,No,Unknown,No,No,No,No,No,No
+419,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,419,2,1,70,No,Unknown,No,No,No,No,No,No
+420,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,420,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+421,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,421,3,2,95,Yes,4,No,No,Yes,No,No,No
+422,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,422,5,3,193,No,Unknown,No,No,No,No,No,No
+423,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,423,4,2,109,Yes,1,No,Yes,No,No,No,No
+424,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,424,4,2,119,Yes,2,No,Yes,No,No,No,No
+425,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,425,3,2,141,Yes,1,No,Yes,No,No,No,No
+426,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,426,4,2,119,Yes,6,No,No,Yes,No,No,No
+427,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,427,3,2,89,Yes,7,No,No,No,No,Yes,No
+428,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,428,3,2,102,Yes,5,No,Yes,No,No,No,No
+429,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,429,3,2,112,Yes,6,No,No,No,No,Yes,No
+430,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,430,4,2,83,No,Unknown,Yes,No,No,No,No,No
+431,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,431,4,2,110,Yes,2,No,Yes,No,No,No,No
+432,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,432,1,1,32,No,1,No,No,Yes,No,No,No
+433,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,433,1,1,95,Yes,1,No,Yes,No,No,No,No
+434,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,434,3,2,91,Yes,4,No,No,No,No,No,No
+435,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,435,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+436,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,436,3,1,58,No,4,No,No,No,No,No,No
+437,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,437,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+438,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,438,2,2,140,No,Unknown,No,No,No,No,No,No
+439,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,439,3,2,110,No,Unknown,No,No,No,Yes,No,No
+440,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,440,2,2,102,No,Unknown,No,No,No,No,No,No
+441,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,441,5,3,130,No,Unknown,No,No,No,No,No,No
+442,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,442,3,2,81,No,Unknown,No,No,No,No,No,No
+443,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,443,3,1,105,No,Unknown,No,No,No,No,No,No
+444,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,444,5,3,160,No,Unknown,No,No,No,No,No,No
+445,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,445,5,2,130,No,Unknown,No,No,No,No,No,No
+446,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,446,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+447,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,447,4,3,210,No,Unknown,No,No,No,No,No,No
+448,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,448,2,1,75,No,Unknown,No,No,No,No,No,No
+449,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,449,2,1,70,No,Unknown,No,No,No,No,No,No
+450,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,450,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+451,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,451,3,2,95,Yes,4,No,No,Yes,No,No,No
+452,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,452,5,3,193,No,Unknown,No,No,No,No,No,No
+453,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,453,4,2,109,Yes,1,No,Yes,No,No,No,No
+454,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,454,4,2,119,Yes,2,No,Yes,No,No,No,No
+455,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,455,3,2,141,Yes,1,No,Yes,No,No,No,No
+456,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,456,4,2,119,Yes,6,No,No,Yes,No,No,No
+457,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,457,3,2,89,Yes,7,No,No,No,No,Yes,No
+458,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,458,3,2,102,Yes,5,No,Yes,No,No,No,No
+459,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,459,3,2,112,Yes,6,No,No,No,No,Yes,No
+460,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,460,4,2,83,No,Unknown,Yes,No,No,No,No,No
+461,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,461,4,2,110,Yes,2,No,Yes,No,No,No,No
+462,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,462,1,1,32,No,1,No,No,Yes,No,No,No
+463,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,463,1,1,95,Yes,1,No,Yes,No,No,No,No
+464,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,464,3,2,91,Yes,4,No,No,No,No,No,No
+465,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,465,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+466,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,466,3,1,58,No,4,No,No,No,No,No,No
+467,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,467,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+468,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,468,2,2,140,No,Unknown,No,No,No,No,No,No
+469,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,469,3,2,110,No,Unknown,No,No,No,Yes,No,No
+470,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,470,2,2,102,No,Unknown,No,No,No,No,No,No
+471,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,471,5,3,130,No,Unknown,No,No,No,No,No,No
+472,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,472,3,2,81,No,Unknown,No,No,No,No,No,No
+473,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,473,3,1,105,No,Unknown,No,No,No,No,No,No
+474,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,474,5,3,160,No,Unknown,No,No,No,No,No,No
+475,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,475,5,2,130,No,Unknown,No,No,No,No,No,No
+476,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,476,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+477,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,477,4,3,210,No,Unknown,No,No,No,No,No,No
+478,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,478,2,1,75,No,Unknown,No,No,No,No,No,No
+479,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,479,2,1,70,No,Unknown,No,No,No,No,No,No
+480,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,480,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+481,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,481,3,2,95,Yes,4,No,No,Yes,No,No,No
+482,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,482,5,3,193,No,Unknown,No,No,No,No,No,No
+483,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,483,4,2,109,Yes,1,No,Yes,No,No,No,No
+484,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,484,4,2,119,Yes,2,No,Yes,No,No,No,No
+485,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,485,3,2,141,Yes,1,No,Yes,No,No,No,No
+486,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,486,4,2,119,Yes,6,No,No,Yes,No,No,No
+487,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,487,3,2,89,Yes,7,No,No,No,No,Yes,No
+488,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,488,3,2,102,Yes,5,No,Yes,No,No,No,No
+489,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,489,3,2,112,Yes,6,No,No,No,No,Yes,No
+490,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,490,4,2,83,No,Unknown,Yes,No,No,No,No,No
+491,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,491,4,2,110,Yes,2,No,Yes,No,No,No,No
+492,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,492,1,1,32,No,1,No,No,Yes,No,No,No
+493,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,493,1,1,95,Yes,1,No,Yes,No,No,No,No
+494,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,494,3,2,91,Yes,4,No,No,No,No,No,No
+495,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,495,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+496,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,496,3,1,58,No,4,No,No,No,No,No,No
+497,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,497,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+498,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,498,2,2,140,No,Unknown,No,No,No,No,No,No
+499,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,499,3,2,110,No,Unknown,No,No,No,Yes,No,No
+500,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,500,2,2,102,No,Unknown,No,No,No,No,No,No
+501,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,501,5,3,130,No,Unknown,No,No,No,No,No,No
+502,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,502,3,2,81,No,Unknown,No,No,No,No,No,No
+503,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,503,3,1,105,No,Unknown,No,No,No,No,No,No
+504,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,504,5,3,160,No,Unknown,No,No,No,No,No,No
+505,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,505,5,2,130,No,Unknown,No,No,No,No,No,No
+506,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,506,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+507,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,507,4,3,210,No,Unknown,No,No,No,No,No,No
+508,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,508,2,1,75,No,Unknown,No,No,No,No,No,No
+509,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,509,2,1,70,No,Unknown,No,No,No,No,No,No
+510,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,510,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+511,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,511,3,2,95,Yes,4,No,No,Yes,No,No,No
+512,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,512,5,3,193,No,Unknown,No,No,No,No,No,No
+513,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,513,4,2,109,Yes,1,No,Yes,No,No,No,No
+514,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,514,4,2,119,Yes,2,No,Yes,No,No,No,No
+515,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,515,3,2,141,Yes,1,No,Yes,No,No,No,No
+516,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,516,4,2,119,Yes,6,No,No,Yes,No,No,No
+517,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,517,3,2,89,Yes,7,No,No,No,No,Yes,No
+518,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,518,3,2,102,Yes,5,No,Yes,No,No,No,No
+519,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,519,3,2,112,Yes,6,No,No,No,No,Yes,No
+520,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,520,4,2,83,No,Unknown,Yes,No,No,No,No,No
+521,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,521,4,2,110,Yes,2,No,Yes,No,No,No,No
+522,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,522,1,1,32,No,1,No,No,Yes,No,No,No
+523,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,523,1,1,95,Yes,1,No,Yes,No,No,No,No
+524,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,524,3,2,91,Yes,4,No,No,No,No,No,No
+525,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,525,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+526,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,526,3,1,58,No,4,No,No,No,No,No,No
+527,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,527,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+528,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,528,2,2,140,No,Unknown,No,No,No,No,No,No
+529,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,529,3,2,110,No,Unknown,No,No,No,Yes,No,No
+530,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,530,2,2,102,No,Unknown,No,No,No,No,No,No
+531,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,531,5,3,130,No,Unknown,No,No,No,No,No,No
+532,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,532,3,2,81,No,Unknown,No,No,No,No,No,No
+533,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,533,3,1,105,No,Unknown,No,No,No,No,No,No
+534,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,534,5,3,160,No,Unknown,No,No,No,No,No,No
+535,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,535,5,2,130,No,Unknown,No,No,No,No,No,No
+536,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,536,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+537,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,537,4,3,210,No,Unknown,No,No,No,No,No,No
+538,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,538,2,1,75,No,Unknown,No,No,No,No,No,No
+539,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,539,2,1,70,No,Unknown,No,No,No,No,No,No
+540,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,540,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+541,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,541,3,2,95,Yes,4,No,No,Yes,No,No,No
+542,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,542,5,3,193,No,Unknown,No,No,No,No,No,No
+543,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,543,4,2,109,Yes,1,No,Yes,No,No,No,No
+544,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,544,4,2,119,Yes,2,No,Yes,No,No,No,No
+545,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,545,3,2,141,Yes,1,No,Yes,No,No,No,No
+546,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,546,4,2,119,Yes,6,No,No,Yes,No,No,No
+547,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,547,3,2,89,Yes,7,No,No,No,No,Yes,No
+548,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,548,3,2,102,Yes,5,No,Yes,No,No,No,No
+549,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,549,3,2,112,Yes,6,No,No,No,No,Yes,No
+550,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,550,4,2,83,No,Unknown,Yes,No,No,No,No,No
+551,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,551,4,2,110,Yes,2,No,Yes,No,No,No,No
+552,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,552,1,1,32,No,1,No,No,Yes,No,No,No
+553,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,553,1,1,95,Yes,1,No,Yes,No,No,No,No
+554,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,554,3,2,91,Yes,4,No,No,No,No,No,No
+555,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,555,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+556,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,556,3,1,58,No,4,No,No,No,No,No,No
+557,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,557,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+558,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,558,2,2,140,No,Unknown,No,No,No,No,No,No
+559,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,559,3,2,110,No,Unknown,No,No,No,Yes,No,No
+560,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,560,2,2,102,No,Unknown,No,No,No,No,No,No
+561,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,561,5,3,130,No,Unknown,No,No,No,No,No,No
+562,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,562,3,2,81,No,Unknown,No,No,No,No,No,No
+563,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,563,3,1,105,No,Unknown,No,No,No,No,No,No
+564,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,564,5,3,160,No,Unknown,No,No,No,No,No,No
+565,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,565,5,2,130,No,Unknown,No,No,No,No,No,No
+566,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,566,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+567,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,567,4,3,210,No,Unknown,No,No,No,No,No,No
+568,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,568,2,1,75,No,Unknown,No,No,No,No,No,No
+569,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,569,2,1,70,No,Unknown,No,No,No,No,No,No
+570,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,570,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+571,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,571,3,2,95,Yes,4,No,No,Yes,No,No,No
+572,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,572,5,3,193,No,Unknown,No,No,No,No,No,No
+573,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,573,4,2,109,Yes,1,No,Yes,No,No,No,No
+574,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,574,4,2,119,Yes,2,No,Yes,No,No,No,No
+575,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,575,3,2,141,Yes,1,No,Yes,No,No,No,No
+576,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,576,4,2,119,Yes,6,No,No,Yes,No,No,No
+577,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,577,3,2,89,Yes,7,No,No,No,No,Yes,No
+578,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,578,3,2,102,Yes,5,No,Yes,No,No,No,No
+579,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,579,3,2,112,Yes,6,No,No,No,No,Yes,No
+580,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,580,4,2,83,No,Unknown,Yes,No,No,No,No,No
+581,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,581,4,2,110,Yes,2,No,Yes,No,No,No,No
+582,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,582,1,1,32,No,1,No,No,Yes,No,No,No
+583,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,583,1,1,95,Yes,1,No,Yes,No,No,No,No
+584,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,584,3,2,91,Yes,4,No,No,No,No,No,No
+585,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,585,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+586,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,586,3,1,58,No,4,No,No,No,No,No,No
+587,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,587,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+588,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,588,2,2,140,No,Unknown,No,No,No,No,No,No
+589,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,589,3,2,110,No,Unknown,No,No,No,Yes,No,No
+590,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,590,2,2,102,No,Unknown,No,No,No,No,No,No
+591,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,591,5,3,130,No,Unknown,No,No,No,No,No,No
+592,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,592,3,2,81,No,Unknown,No,No,No,No,No,No
+593,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,593,3,1,105,No,Unknown,No,No,No,No,No,No
+594,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,594,5,3,160,No,Unknown,No,No,No,No,No,No
+595,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,595,5,2,130,No,Unknown,No,No,No,No,No,No
+596,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,596,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+597,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,597,4,3,210,No,Unknown,No,No,No,No,No,No
+598,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,598,2,1,75,No,Unknown,No,No,No,No,No,No
+599,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,599,2,1,70,No,Unknown,No,No,No,No,No,No
+600,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,600,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+601,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,601,3,2,95,Yes,4,No,No,Yes,No,No,No
+602,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,602,5,3,193,No,Unknown,No,No,No,No,No,No
+603,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,603,4,2,109,Yes,1,No,Yes,No,No,No,No
+604,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,604,4,2,119,Yes,2,No,Yes,No,No,No,No
+605,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,605,3,2,141,Yes,1,No,Yes,No,No,No,No
+606,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,606,4,2,119,Yes,6,No,No,Yes,No,No,No
+607,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,607,3,2,89,Yes,7,No,No,No,No,Yes,No
+608,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,608,3,2,102,Yes,5,No,Yes,No,No,No,No
+609,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,609,3,2,112,Yes,6,No,No,No,No,Yes,No
+610,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,610,4,2,83,No,Unknown,Yes,No,No,No,No,No
+611,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,611,4,2,110,Yes,2,No,Yes,No,No,No,No
+612,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,612,1,1,32,No,1,No,No,Yes,No,No,No
+613,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,613,1,1,95,Yes,1,No,Yes,No,No,No,No
+614,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,614,3,2,91,Yes,4,No,No,No,No,No,No
+615,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,615,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+616,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,616,3,1,58,No,4,No,No,No,No,No,No
+617,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,617,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+618,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,618,2,2,140,No,Unknown,No,No,No,No,No,No
+619,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,619,3,2,110,No,Unknown,No,No,No,Yes,No,No
+620,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,620,2,2,102,No,Unknown,No,No,No,No,No,No
+621,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,621,5,3,130,No,Unknown,No,No,No,No,No,No
+622,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,622,3,2,81,No,Unknown,No,No,No,No,No,No
+623,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,623,3,1,105,No,Unknown,No,No,No,No,No,No
+624,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,624,5,3,160,No,Unknown,No,No,No,No,No,No
+625,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,625,5,2,130,No,Unknown,No,No,No,No,No,No
+626,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,626,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+627,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,627,4,3,210,No,Unknown,No,No,No,No,No,No
+628,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,628,2,1,75,No,Unknown,No,No,No,No,No,No
+629,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,629,2,1,70,No,Unknown,No,No,No,No,No,No
+630,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,630,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+631,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,631,3,2,95,Yes,4,No,No,Yes,No,No,No
+632,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,632,5,3,193,No,Unknown,No,No,No,No,No,No
+633,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,633,4,2,109,Yes,1,No,Yes,No,No,No,No
+634,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,634,4,2,119,Yes,2,No,Yes,No,No,No,No
+635,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,635,3,2,141,Yes,1,No,Yes,No,No,No,No
+636,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,636,4,2,119,Yes,6,No,No,Yes,No,No,No
+637,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,637,3,2,89,Yes,7,No,No,No,No,Yes,No
+638,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,638,3,2,102,Yes,5,No,Yes,No,No,No,No
+639,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,639,3,2,112,Yes,6,No,No,No,No,Yes,No
+640,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,640,4,2,83,No,Unknown,Yes,No,No,No,No,No
+641,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,641,4,2,110,Yes,2,No,Yes,No,No,No,No
+642,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,642,1,1,32,No,1,No,No,Yes,No,No,No
+643,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,643,1,1,95,Yes,1,No,Yes,No,No,No,No
+644,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,644,3,2,91,Yes,4,No,No,No,No,No,No
+645,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,645,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+646,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,646,3,1,58,No,4,No,No,No,No,No,No
+647,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,647,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+648,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,648,2,2,140,No,Unknown,No,No,No,No,No,No
+649,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,649,3,2,110,No,Unknown,No,No,No,Yes,No,No
+650,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,650,2,2,102,No,Unknown,No,No,No,No,No,No
+651,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,651,5,3,130,No,Unknown,No,No,No,No,No,No
+652,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,652,3,2,81,No,Unknown,No,No,No,No,No,No
+653,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,653,3,1,105,No,Unknown,No,No,No,No,No,No
+654,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,654,5,3,160,No,Unknown,No,No,No,No,No,No
+655,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,655,5,2,130,No,Unknown,No,No,No,No,No,No
+656,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,656,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+657,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,657,4,3,210,No,Unknown,No,No,No,No,No,No
+658,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,658,2,1,75,No,Unknown,No,No,No,No,No,No
+659,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,659,2,1,70,No,Unknown,No,No,No,No,No,No
+660,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,660,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+661,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,661,3,2,95,Yes,4,No,No,Yes,No,No,No
+662,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,662,5,3,193,No,Unknown,No,No,No,No,No,No
+663,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,663,4,2,109,Yes,1,No,Yes,No,No,No,No
+664,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,664,4,2,119,Yes,2,No,Yes,No,No,No,No
+665,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,665,3,2,141,Yes,1,No,Yes,No,No,No,No
+666,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,666,4,2,119,Yes,6,No,No,Yes,No,No,No
+667,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,667,3,2,89,Yes,7,No,No,No,No,Yes,No
+668,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,668,3,2,102,Yes,5,No,Yes,No,No,No,No
+669,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,669,3,2,112,Yes,6,No,No,No,No,Yes,No
+670,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,670,4,2,83,No,Unknown,Yes,No,No,No,No,No
+671,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,671,4,2,110,Yes,2,No,Yes,No,No,No,No
+672,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,672,1,1,32,No,1,No,No,Yes,No,No,No
+673,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,673,1,1,95,Yes,1,No,Yes,No,No,No,No
+674,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,674,3,2,91,Yes,4,No,No,No,No,No,No
+675,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,675,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+676,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,676,3,1,58,No,4,No,No,No,No,No,No
+677,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,677,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+678,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,678,2,2,140,No,Unknown,No,No,No,No,No,No
+679,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,679,3,2,110,No,Unknown,No,No,No,Yes,No,No
+680,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,680,2,2,102,No,Unknown,No,No,No,No,No,No
+681,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,681,5,3,130,No,Unknown,No,No,No,No,No,No
+682,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,682,3,2,81,No,Unknown,No,No,No,No,No,No
+683,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,683,3,1,105,No,Unknown,No,No,No,No,No,No
+684,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,684,5,3,160,No,Unknown,No,No,No,No,No,No
+685,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,685,5,2,130,No,Unknown,No,No,No,No,No,No
+686,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,686,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+687,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,687,4,3,210,No,Unknown,No,No,No,No,No,No
+688,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,688,2,1,75,No,Unknown,No,No,No,No,No,No
+689,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,689,2,1,70,No,Unknown,No,No,No,No,No,No
+690,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,690,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+691,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,691,3,2,95,Yes,4,No,No,Yes,No,No,No
+692,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,692,5,3,193,No,Unknown,No,No,No,No,No,No
+693,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,693,4,2,109,Yes,1,No,Yes,No,No,No,No
+694,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,694,4,2,119,Yes,2,No,Yes,No,No,No,No
+695,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,695,3,2,141,Yes,1,No,Yes,No,No,No,No
+696,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,696,4,2,119,Yes,6,No,No,Yes,No,No,No
+697,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,697,3,2,89,Yes,7,No,No,No,No,Yes,No
+698,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,698,3,2,102,Yes,5,No,Yes,No,No,No,No
+699,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,699,3,2,112,Yes,6,No,No,No,No,Yes,No
+700,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,700,4,2,83,No,Unknown,Yes,No,No,No,No,No
+701,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,701,4,2,110,Yes,2,No,Yes,No,No,No,No
+702,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,702,1,1,32,No,1,No,No,Yes,No,No,No
+703,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,703,1,1,95,Yes,1,No,Yes,No,No,No,No
+704,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,704,3,2,91,Yes,4,No,No,No,No,No,No
+705,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,705,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+706,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,706,3,1,58,No,4,No,No,No,No,No,No
+707,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,707,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+708,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,708,2,2,140,No,Unknown,No,No,No,No,No,No
+709,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,709,3,2,110,No,Unknown,No,No,No,Yes,No,No
+710,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,710,2,2,102,No,Unknown,No,No,No,No,No,No
+711,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,711,5,3,130,No,Unknown,No,No,No,No,No,No
+712,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,712,3,2,81,No,Unknown,No,No,No,No,No,No
+713,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,713,3,1,105,No,Unknown,No,No,No,No,No,No
+714,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,714,5,3,160,No,Unknown,No,No,No,No,No,No
+715,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,715,5,2,130,No,Unknown,No,No,No,No,No,No
+716,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,716,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+717,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,717,4,3,210,No,Unknown,No,No,No,No,No,No
+718,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,718,2,1,75,No,Unknown,No,No,No,No,No,No
+719,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,719,2,1,70,No,Unknown,No,No,No,No,No,No
+720,A consultar,Piso,Piso con piscina en Nuevo Cáceres ,927 135 098,venta,720,3,2,90,Yes,Unknown,No,Yes,No,No,No,Yes
+721,212.000 €,Piso,"Piso en Padre Leocadio, 1, Centro ",927 135 098,venta,721,3,2,95,Yes,4,No,No,Yes,No,No,No
+722,99.900 €,Piso,Piso con 3 baños en Ciudad Monumental ,924 150 618,venta,722,5,3,193,No,Unknown,No,No,No,No,No,No
+723,132.000 €,Piso,Piso con terraza en Centro ,924 150 618,venta,723,4,2,109,Yes,1,No,Yes,No,No,No,No
+724,150.000 €,Piso,"Piso con terraza en Leon Leal, Centro ",927 135 098,venta,724,4,2,119,Yes,2,No,Yes,No,No,No,No
+725,170.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,725,3,2,141,Yes,1,No,Yes,No,No,No,No
+726,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 098,venta,726,4,2,119,Yes,6,No,No,Yes,No,No,No
+727,179.000 €,Piso,"Piso en Antonio Hurtado, 12, Centro ",927 135 106,venta,727,3,2,89,Yes,7,No,No,No,No,Yes,No
+728,155.000 €,Piso,"Piso con terraza en Viena, Ruta de la Plata ",927 135 098,venta,728,3,2,102,Yes,5,No,Yes,No,No,No,No
+729,229.000 €,Piso,"Piso en Av. Clara Campoamor, 1, 1, Centro ",927 135 106,venta,729,3,2,112,Yes,6,No,No,No,No,Yes,No
+730,129.000 €,Piso,"Piso en C. Tenerías, 35, 35, Ciudad Monumental ",927 135 106,venta,730,4,2,83,No,Unknown,Yes,No,No,No,No,No
+731,189.000 €,Piso,Piso con terraza en Centro ,927 135 098,venta,731,4,2,110,Yes,2,No,Yes,No,No,No,No
+732,108.000 €,Apartamento,"Apartamento con calefacción en San Jorge, Centro ",927 135 098,venta,732,1,1,32,No,1,No,No,Yes,No,No,No
+733,115.000 €,Apartamento,Apartamento con terraza en Ruta de la Plata ,927 135 106,venta,733,1,1,95,Yes,1,No,Yes,No,No,No,No
+734,135.000 €,Piso,Piso con ascensor en Ruta de la Plata ,927 135 106,venta,734,3,2,91,Yes,4,No,No,No,No,No,No
+735,447.000 €,Casa o chalet,"Casa o chalet con terraza en Isla de la Toja, Ruta de la Plata ",927 920 486,venta,735,6,3,350,No,Unknown,No,Yes,Yes,Yes,No,No
+736,70.000 €,Piso,Piso con 1 baño en Nuevo Cáceres ,924 150 618,venta,736,3,1,58,No,4,No,No,No,No,No,No
+737,72.000 €,Casa o chalet,Casa o chalet con terraza en Ciudad Monumental ,924 150 618,venta,737,3,1,198,No,Unknown,No,Yes,No,Yes,No,No
+738,163.000 €,Piso,Piso con 2 baños en Ciudad Monumental ,927 135 106,venta,738,2,2,140,No,Unknown,No,No,No,No,No,No
+739,117.500 €,Casa o chalet,Casa o chalet con aire acondicionado en Nuevo Cáceres ,924 150 618,venta,739,3,2,110,No,Unknown,No,No,No,Yes,No,No
+740,A consultar,Obra Nueva ,"Obra Nueva Piso en Calle Madre Isabel Larrañaga, 6, Centro ",927 132 758,venta,740,2,2,102,No,Unknown,No,No,No,No,No,No
+741,235.000 €,Dúplex,Dúplex con ascensor en Centro ,927 132 761,venta,741,5,3,130,No,Unknown,No,No,No,No,No,No
+742,109.000 €,Piso,Piso con balcón en Ciudad Monumental ,927 132 761,venta,742,3,2,81,No,Unknown,No,No,No,No,No,No
+743,110.000 €,Apartamento,Apartamento con terraza en Centro ,927 136 129,venta,743,3,1,105,No,Unknown,No,No,No,No,No,No
+744,260.000 €,Piso,Piso con ascensor en Centro ,927 132 761,venta,744,5,3,160,No,Unknown,No,No,No,No,No,No
+745,100.000 €,Piso,Piso con terraza en Centro ,927 920 171,venta,745,5,2,130,No,Unknown,No,No,No,No,No,No
+746,136.000 €,Casa adosada,Casa adosada en Mejostilla ,924 155 013,venta,746,4,Unknown,96,No,Unknown,No,No,No,No,No,No
+747,250.000 €,Casa adosada,Casa adosada con terraza en Mejostilla ,927 926 041,venta,747,4,3,210,No,Unknown,No,No,No,No,No,No
+748,112.000 €,Piso,"Piso con terraza en Gil Cordero, Centro ",927 920 179,venta,748,2,1,75,No,Unknown,No,No,No,No,No,No
+749,80.000 €,Apartamento,Apartamento con terraza en Mejostilla ,927 920 171,venta,749,2,1,70,No,Unknown,No,No,No,No,No,No
