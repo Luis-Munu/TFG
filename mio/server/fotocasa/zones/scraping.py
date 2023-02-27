@@ -101,9 +101,12 @@ def extract_page_data(soup):
         # Find all mobiles in the page
         mobiles = soup.find('div', class_='re-SearchOtherZonesBlock').find_all_previous('div', class_='re-CardContact-appendix')
         # Find all IDs in the page
-        ids = soup.find('div', class_='re-SearchOtherZonesBlock').find_all_previous('a', class_=re.compile('-info-container'))
+        urls = soup.find('div', class_='re-SearchOtherZonesBlock').find_all_previous('a', class_=re.compile('-info-container'))
         # Find age on re-CardTimeAgo re-CardTimeAgo--isInlineWithPrice
-        #age = soup.find('div', class_='re-SearchOtherZonesBlock').find_all_previous('span', class_='re-CardTimeAgo')
+        ages = soup.find('div', class_='re-SearchOtherZonesBlock').find_all_previous('span', class_='re-CardTimeAgo')
+        # Find company by class re-CardPromotionBanner-title-name
+        companies = soup.find('div', class_='re-SearchOtherZonesBlock').find_all_previous('span', class_='re-CardPromotionBanner-title-name')
+
 
     except AttributeError:
         # Find all prices in the page
@@ -115,11 +118,13 @@ def extract_page_data(soup):
         # Find all mobiles in the page
         mobiles = soup.find_all('div', class_='re-CardContact-appendix')
         # Find all IDs in the page
-        ids = soup.find_all('a', class_=re.compile('-info-container'))
+        urls = soup.find_all('a', class_=re.compile('-info-container'))
         # Find age
-        #age = soup.find_all('span', class_='re-CardTimeAgo')
+        ages = soup.find_all('span', class_='re-CardTimeAgo')
+        # Find company by class re-CardPromotionBanner-title-name
+        companies = soup.find_all('span', class_='re-CardPromotionBanner-title-name')
     
-    return prices, titles, attributes, mobiles, ids
+    return prices, titles, attributes, mobiles, urls, ages, companies
 
 def extract_building_attributes(attribute_input):
     
@@ -151,28 +156,33 @@ def extract_building_mobiles(mobiles_input):
     return [mobile[1].text if len(mobile) > 1 else "Unknown" for mobile in mobile_list]
 
 def extract_building_ids(ids_input):
-    return [re.split(r'/', ident['href'])[-1] if re.split(r'/', ident['href'])[-1] != 'd' 
+    return [re.split(r'/', ident['href'])[-2] if re.split(r'/', ident['href'])[-1] != 'd' 
              else re.split(r'/', ident['href'])[-2] for i, ident in enumerate(ids_input)]
+
 
 def building_creation(soup, Building, city):
 
     page_buildings = []
 
-    prices, titles, attributes, mobiles, ids = extract_page_data(soup)
+    prices, titles, attributes, mobiles, urls, ages, companies = extract_page_data(soup)
     attributes = extract_building_attributes(attributes)
     mobiles = extract_building_mobiles(mobiles)
-    ids = extract_building_ids(ids)
+    ids = extract_building_ids(urls)
+    
 
 
     for i in range(len(prices)):
         building = Building(
-            price = prices[i].find('span').getText(),
-            type = titles[i].find('strong').getText(),
-            title = titles[i].getText(),
+            price = prices[i].find('span').getText().replace('.', '').replace('€', '').strip(),
+            type = titles[i].find('strong').getText().strip(),
+            title = titles[i].getText().strip(),
             attributes = attributes[i],
             mobile = mobiles[i],
-            zone = city,
-            id = ids[i]
+            address = titles[i].getText().split(' en ')[-1].strip(),
+            city = city,
+            age = 0 if 'Novedad' in ages[i].getText() else int(ages[i].getText().strip().split(' ')[1]),
+            url = urls[i]['href'],
+            company = companies[i].getText().strip(),
         )
         page_buildings.append(building)
 
@@ -191,12 +201,14 @@ def next_page():
                 EC.element_to_be_clickable(buttons[-1])
             ).click()
             scroll = False
+            remove_annoying_add()
         except ElementClickInterceptedException:
             actions.key_down(Keys.PAGE_UP).key_up(Keys.PAGE_UP).perform()
             pass
 
 def extract_buildings(soup, n_pages):
-    city = re.split(' en ', soup.find('h1', class_='re-SearchTitle-text').getText())[1].strip()
+    #city = re.split(' en ', soup.find('h1', class_='re-SearchTitle-text').getText())[1].strip()
+    city = soup.find('h1', class_='re-SearchTitle-text').getText().split(' en ')[2].strip()
 
     @dataclass
     class Building:
@@ -205,8 +217,11 @@ def extract_buildings(soup, n_pages):
         title: str
         attributes: str
         mobile: str
-        zone: str
-        id: str
+        address: str
+        city: str
+        age: int
+        url: str
+        company: str
 
     buildings = []
     for page in range(1, 2):
@@ -221,6 +236,15 @@ def extract_buildings(soup, n_pages):
     buildings = [building.__dict__ for building in buildings]
 
     return buildings
+
+def remove_annoying_add():
+    # find the button of class ab-close-button wait until it is clickable and click it
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, '//button[@class="ab-close-button"]'))
+        ).click()
+    except TimeoutException:
+        pass
 
 def scrape(location):
     remove_cookie_banner()

@@ -3,6 +3,8 @@ import scraping
 
 
 def main(location='Cáceres'):
+    # delete the current data from MongoDB
+    processing.delete_from_mongo()
     # Get the data from the web
     data = scraping.scrape(location)
 
