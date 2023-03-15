@@ -215,7 +215,7 @@ def extract_buildings(soup, n_pages):
         #company: str
 
     buildings = []
-    for page in range(1, 10):
+    for page in range(1, n_pages):
         for i in range(25):
             soup = BeautifulSoup(driver.page_source, features="lxml")
             remove_annoying_add()

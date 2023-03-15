@@ -3,8 +3,9 @@ import sys
 import Ice
 import pandas as pd
 import server
-from processing.rentability import calculations
 from pymongo import MongoClient
+
+from mio.server.processing.property_statistics import calculations
 
 client = MongoClient('localhost', 27017)
 db = client['real_estate']
