@@ -2,33 +2,25 @@ import sys
 
 import Ice
 import pandas as pd
-import server
 from pymongo import MongoClient
 
-from mio.server.processing.property_statistics import calculations
+import server
 
 client = MongoClient('localhost', 27017)
 db = client['real_estate']
-collection = db['properties']
+properties = db['properties']
+zones = db['zones']
 
 class MyServerI(server.serverInterface):
 
-    def update_calculations(self):
-        # Retrieve the data from MongoDB
-        df = pd.DataFrame(list(collection.find()))
-        # Perform the calculations
-        df = calculations(df)
-        # Save the data to MongoDB
-        collection.insert_many(df.to_dict('records'))
+    def return_collection(self, collection_name, current=None):
+        if collection_name == "properties":
+            collection = properties
+        elif collection_name == "zones":
+            collection = zones
+        else:
+            return "{}"
 
-    def updateDB(self, json_df, current=None):
-        # Convert the JSON dataframe to a Pandas dataframe
-        df = pd.read_json(json_df)
-        # Save the data to MongoDB
-        collection.insert_many(df.to_dict('records'))
-
-    def returnDataframe(self, current=None):
-        # Retrieve the data from MongoDB and return it as a JSON dataframe
         df = pd.DataFrame(list(collection.find()))
         return df.to_json()
 
