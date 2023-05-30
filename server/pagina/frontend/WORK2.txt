@@ -1,0 +1,4 @@
+   price.265  price.28  price.336  price.138  ...  profitability.10160  profitability.10017  profitability.4847  profitability.11871
+0     127130    127130     119900     119900  ...         -1938.406494         -4535.801735        -4614.150677        -16906.218926
+
+[1 rows x 435200 columns]

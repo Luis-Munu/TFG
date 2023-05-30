@@ -1,5 +1,0 @@
-discounts re-CardPriceReductionLiteral
-age re-CardTimeAgo re-CardTimeAgo--isInlineWithPrice
-
-boton cerrar spam aria-label="Close Message"
-boton cerrar spam class="ab-close-button"
