@@ -13,6 +13,9 @@ def main(arg):
     if arg == 'collectdata':
         from extraction import extraction as extr
         extr.data_extraction()
+        
+        from processing import processing as proc
+        proc.processing()
     elif arg == 'startserver':
         from rpc_server import rpc_server as rpc
         rpc.start_rpc()
@@ -33,4 +36,4 @@ if __name__ == '__main__':
         print('invalid number of arguments')
         print('please use collectdata or startserver')
         print(' defaulting to startserver')
-        main("startserver")
+        main("collectdata")

@@ -99,3 +99,6 @@ def zone_preprocessing():
     collection = db["zones"]
     collection.delete_many({})
     collection.insert_one(zones)
+    
+if __name__ == "__main__":
+    zone_preprocessing()

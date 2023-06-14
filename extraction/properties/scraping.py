@@ -14,104 +14,134 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from fake_useragent import UserAgent
 
-def remove_cookie_banner(driver):
-    """
-    Accepts the cookies on the website.
+from urllib3.exceptions import MaxRetryError
 
-    Parameters:
-    driver (selenium.webdriver): The webdriver instance.
+location = ''
+current_page = 1
+num_pages = 1
 
-    Returns:
-    None
-    """
+############# MANAGEMENT METHODS #############
+
+def create_driver():
+    options = webdriver.ChromeOptions()
+    options.ignore_certificate_errors = True
+    options.disable_blink_features = 'AutomationControlled'
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("useAutomationExtension", False) 
+    options.allow_running_insecure_content = True
+    options.user_agent = UserAgent().random
+    options.log_level = 2
+    #ptions.executable_path = 'C:/Users/Pepsisonico/Downloads/padres/TFG-FInal/extraction/properties/chromedriver' # replace with the actual path to the Chrome driver executable
+    #options.headless = True
+    driver = webdriver.Chrome(options=options)
+    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})") 
+    return driver
+
+driver = ""
+
+def refresh_driver():
+    # get the url with a try except maxtryerror
+    try:
+        url = driver.current_url
+    except MaxRetryError:
+        print("We got a MaxRetryError refreshing the driver")
+    
+    # if we got the url, just change the user agent of the driver and refresh the page
+    try:
+        if not url is None:
+            driver.execute_cdp_cmd("Network.setUserAgentOverride", {"userAgent": UserAgent().random})
+            driver.refresh()
+            actions = ActionChains(driver)
+            remove_cookie_banner()
+            remove_annoying_add()
+    # if we didn't get the url, create a new driver
+        else:
+            driver = create_driver()
+            driver.get('https://www.fotocasa.es/es')
+            actions = ActionChains(driver)
+            remove_cookie_banner()
+            remove_annoying_add()
+            # search the location and go to the page we were
+            search_location()
+            while _ < num_pages: 
+                sleep(2)
+                next_page(actions)
+                _ += 1
+            sleep(2)
+    except:
+        print("We got an error refreshing the driver")
+            
+    
+def remove_cookie_banner():
     # Wait for the accept cookies button to appear
     wait = WebDriverWait(driver, 10)
-    accept_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '[data-testid="TcfAccept"]')))
+    try:
+        accept_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '[data-testid="TcfAccept"]')))
+        # Click the accept cookies button
+        accept_button.click()
+    except TimeoutException:
+        pass
+    
+def remove_annoying_add():
+    try:
+        WebDriverWait(driver, 0.2).until(
+            EC.element_to_be_clickable((By.XPATH, '//button[@class="ab-close-button"]'))
+        ).click()
+    except TimeoutException:
+        pass
+    
+def server_kick():
+    try:
+        WebDriverWait(driver, 0.3).until(
+            EC.presence_of_element_located((By.XPATH, '//h1[text()="SENTIMOS LA INTERRUPCIÓN"]'))
+        )
+        sanity_check()
+    except TimeoutException:
+        pass
+    
+def sanity_check():
+    sleep(60)
+    try:
+        url = driver.current_url
+    except MaxRetryError:
+        print("Hemos sido bloqueados.")
+        
+    # kill the driver and start a new one
+    while True:
+        try:
+            refresh_driver()
+            break
+        except:
+            print("Hemos vuelto a fallar, reintentando OTRA VEZ")
+            
+############# NAVIGATION METHODS #############
 
-    # Click the accept cookies button
-    accept_button.click()
-
-def search_location(location, driver):
-    """
-    Searches for a location on the website.
-
-    Parameters:
-    location (str): The location to search for.
-    driver (selenium.webdriver): The webdriver instance.
-
-    Returns:
-    None
-    """
+def search_location():
+    locationa = location[0] + ", " + location[1]
     # use find_element By.XPATH with xpath = './/div[@class="sui-MoleculeAutosuggest-input-container"]/input'
     search_bar = driver.find_element(By.XPATH, '//input[@class="sui-AtomInput-input sui-AtomInput-input-size-m"]')
     # Click the search bar
     WebDriverWait(driver, 10).until(EC.element_to_be_clickable(search_bar)).click()
     # Enter the location in the search bar
-    search_bar.send_keys(location)
-    sleep(2)
+    search_bar.send_keys(locationa)
+    sleep(4)
     search_bar.send_keys(Keys.ENTER)
     sleep(3)
-    
-    
-def scroll_down(driver, actions):
-    """
-    Scrolls down the website.
-
-    Parameters:
-    driver (selenium.webdriver): The webdriver instance.
-    actions (selenium.webdriver.common.action_chains.ActionChains): The ActionChains instance.
-
-    Returns:
-    None
-    """
-    start_time = time()
-
-    while True:
-        try:
-            element = driver.find_element(By.XPATH, '//a[@class="sui-AtomButton sui-AtomButton--neutral sui-AtomButton--outline sui-AtomButton--center sui-AtomButton--small sui-AtomButton--link sui-AtomButton--rounded"]')
-            server_kick(driver)
-            remove_annoying_add(driver)
-            actions.move_to_element(element).perform()
-            break
-        except NoSuchElementException:
-            if time() - start_time > 60:
-                sanity_check(driver)
-                break
-            actions.key_down(Keys.PAGE_DOWN).key_up(Keys.PAGE_DOWN).pause(0.1).perform()
-            sleep(0.3)
         
 
-
 def number_of_pages(soup):
-    """
-    Gets the number of pages from the given soup.
-
-    Parameters:
-    soup (bs4.BeautifulSoup): The soup to get the number of pages from.
-
-    Returns:
-    int: The number of pages.
-    """
+    global num_pages
     pages = soup.find_all('li', class_="sui-MoleculePagination-item")
     if len(pages) > 1:
-        n_pages = int(pages[-2].find('span').getText())
+        num_pages = int(pages[-2].find('span').getText())
     else:
-        n_pages = 1
-    print('Number of pages:', n_pages, '\n')
-    return n_pages
+        num_pages = 1
+    print('Number of pages:', num_pages, '\n')
+    return num_pages
 
-def get_top_bar(driver, actions):
-    """
-    Gets the top bar from the website.
-
-    Parameters:
-    driver (selenium.webdriver): The webdriver instance.
-    actions (selenium.webdriver.common.action_chains.ActionChains): The ActionChains instance.
-
-    Returns:
-    None
-    """
+def get_top_bar(actions):
     scroll = True
     while scroll == True:
         try:
@@ -125,16 +155,47 @@ def get_top_bar(driver, actions):
             pass
     sleep(5)
 
+def scroll_down(actions):
+    start_time = time()
+
+    while True:
+        try:
+            element = driver.find_element(By.XPATH, '//a[@class="sui-AtomButton sui-AtomButton--neutral sui-AtomButton--outline sui-AtomButton--center sui-AtomButton--small sui-AtomButton--link sui-AtomButton--rounded"]')
+            server_kick()
+            remove_annoying_add()
+            actions.move_to_element(element).perform()
+            break
+        except NoSuchElementException:
+            if time() - start_time > 15:
+                remove_annoying_add()
+                remove_cookie_banner()
+                break
+            actions.key_down(Keys.PAGE_DOWN).key_up(Keys.PAGE_DOWN).pause(0.1).perform()
+            sleep(0.3)
+    
+def next_page(actions):
+    while True:
+        try:
+            sleep(0.1)
+            server_kick()
+            remove_annoying_add()
+            buttons = driver.find_elements(By.XPATH, '//li[@class="sui-MoleculePagination-item"]')
+            WebDriverWait(driver, 60).until(
+                EC.element_to_be_clickable(buttons[-1])
+            ).click()
+            
+            break
+        except ElementClickInterceptedException:
+            actions.key_down(Keys.PAGE_UP).key_up(Keys.PAGE_UP).perform()
+            pass
+        except TimeoutException:
+            sanity_check()
+            sleep(3)
+            break
+        
+############# DATA EXTRACTION METHODS #############
+
 def extract_page_data(soup):
-    """
-    Extracts the data of the different properties displayed on the website from the given soup.
-
-    Parameters:
-    soup (bs4.BeautifulSoup): The soup to extract the data from.
-
-    Returns:
-    list: A list of dictionaries containing the extracted data.
-    """
     try:
 
         prices = soup.find('div', class_='re-SearchOtherZonesBlock').find_all_previous('span', class_='re-CardPriceComposite')
@@ -162,16 +223,6 @@ def extract_page_data(soup):
     return prices, titles, attributes, mobiles, urls, ages #, companies
 
 def extract_property_attributes(attribute_input):
-    """
-    Extracts the property attributes from the given attribute input.
-
-    Parameters:
-    attribute_input (bs4.element.Tag): The attribute input to extract the property attributes from.
-
-    Returns:
-    list: A list of the extracted property attributes.
-    """
-    
     k = 0
     attributes = []; atrs = []
     for attribute in attribute_input:
@@ -196,45 +247,15 @@ def extract_property_attributes(attribute_input):
     return attributes
 
 def extract_property_mobiles(mobiles_input):
-    """
-    Extracts the property mobiles from the given mobiles input.
-
-    Parameters:
-    mobiles_input (bs4.element.ResultSet): The mobiles input to extract the property mobiles from.
-
-    Returns:
-    list: A list of the extracted property mobiles.
-    """
     mobile_list = [mobile.find_all('span', class_='sui-AtomButton-inner') for mobile in mobiles_input]
     return [mobile[1].text if len(mobile) > 1 else "Unknown" for mobile in mobile_list]
 
 def extract_property_ids(ids_input):
-    """
-    Extracts the property IDs from the given IDs input.
-
-    Parameters:
-    ids_input (bs4.element.ResultSet): The IDs input to extract the property IDs from.
-
-    Returns:
-    list: A list of the extracted property IDs.
-    """
     return [re.split(r'/', ident['href'])[-2] if re.split(r'/', ident['href'])[-1] != 'd' 
              else re.split(r'/', ident['href'])[-2] for i, ident in enumerate(ids_input)]
 
 
 def property_creation(soup, Property, city, actions):
-    """
-    Creates a list of Property objects from the given soup.
-
-    Parameters:
-    soup (bs4.BeautifulSoup): The soup to create the Property objects from.
-    Property (class): The Property class.
-    city (str): The city of the properties.
-    actions (selenium.webdriver.common.action_chains.ActionChains): The ActionChains instance.
-
-    Returns:
-    list: A list of Property objects.
-    """
     page_properties = []
 
     prices, titles, attributes, mobiles, urls, ages = extract_page_data(soup)
@@ -242,7 +263,9 @@ def property_creation(soup, Property, city, actions):
     mobiles = extract_property_mobiles(mobiles)
     #ids = extract_property_ids(urls)
     
-    for i in range(len(prices)):
+    shortest_len = min(len(prices), len(titles), len(attributes), len(mobiles), len(urls), len(ages))
+    
+    for i in range(shortest_len):
         property = Property(
             price = prices[i].find('span').getText().replace('.', '').replace('€', '').strip(),
             type = titles[i].find('strong').getText().strip(),
@@ -260,76 +283,8 @@ def property_creation(soup, Property, city, actions):
 
     return page_properties
 
-def sanity_check(driver):
-    """
-    If the driver is stuck in a page, this function will kill the driver and start a new one after 60 seconds.
-
-    Parameters:
-    driver (selenium.webdriver): The webdriver instance.
-
-    Returns:
-    None
-    """
-    sleep(60)
-    url = driver.current_url
-    # kill the driver and start a new one
-    driver.quit()
-    
-    options = webdriver.ChromeOptions()
-    options.add_argument('--ignore-certificate-errors')
-    driver = webdriver.Chrome(options=options)
-
-    driver.get(url)
-    
-    sleep(2)
-    remove_cookie_banner(driver)
-    remove_annoying_add(driver)
-        
-
-
-def next_page(driver, actions):
-    """
-    Clicks the next page button on the website.
-
-    Parameters:
-    driver (selenium.webdriver): The webdriver instance.
-    actions (selenium.webdriver.common.action_chains.ActionChains): The ActionChains instance.
-
-    Returns:
-    None
-    """
-    while True:
-        try:
-            sleep(0.1)
-            server_kick(driver)
-            remove_annoying_add(driver)
-            buttons = driver.find_elements(By.XPATH, '//li[@class="sui-MoleculePagination-item"]')
-            WebDriverWait(driver, 60).until(
-                EC.element_to_be_clickable(buttons[-1])
-            ).click()
-            
-            break
-        except ElementClickInterceptedException:
-            actions.key_down(Keys.PAGE_UP).key_up(Keys.PAGE_UP).perform()
-            pass
-        except TimeoutException:
-            sanity_check(driver)
-            sleep(3)
-            break
-
-def extract_properties(soup, n_pages, driver, actions):
-    """
-    Extracts the properties from the given soup.
-
-    Parameters:
-    soup (bs4.BeautifulSoup): The soup to extract the properties from.
-    n_pages (int): The number of pages to extract the properties from.
-    driver (selenium.webdriver): The webdriver instance.
-    actions (selenium.webdriver.common.action_chains.ActionChains): The ActionChains instance.
-
-    Returns:
-    list: A list of Property objects.
-    """
+def extract_properties(soup, actions):
+    global num_pages, current_page
     city = soup.find('h1', class_='re-SearchTitle-text').getText().split(' en ')[2].strip()
 
     @dataclass
@@ -344,95 +299,66 @@ def extract_properties(soup, n_pages, driver, actions):
         age: int
         url: str
         #company: str
-        
 
     properties = []
-    for page in range(1, n_pages):
-        server_kick(driver)
-        remove_annoying_add(driver)
+    for page in range(1, num_pages + 1):
+        server_kick()
+        remove_annoying_add()
 
         for _ in range(25):
             actions.key_down(Keys.PAGE_DOWN).key_up(Keys.PAGE_DOWN).perform()
             sleep(0.1)
-        soup = BeautifulSoup(driver.page_source, features="lxml")
+        while True:
+            try:
+                soup = BeautifulSoup(driver.page_source, features="lxml")
+                break
+            except MaxRetryError:
+                sanity_check()
+                continue
         properties.extend(property_creation(soup, Property, city, actions))
-        if page < n_pages:
-            next_page(driver, actions)
+        current_page = page
+        if current_page < num_pages:
+            next_page(actions)
 
     # Create a dict with the data
     properties = [property.__dict__ for property in properties]
 
     return properties
 
-def remove_annoying_add(driver):
-    """
-    Removes pop-up adds that appear on the screen.
+#############################################################################################################
 
-    Parameters:
-    driver (selenium.webdriver): The webdriver instance.
-
-    Returns:
-    None
-    """
-    # find the button of class ab-close-button wait until it is clickable and click it
-    try:
-        WebDriverWait(driver, 0.2).until(
-            EC.element_to_be_clickable((By.XPATH, '//button[@class="ab-close-button"]'))
-        ).click()
-    except TimeoutException:
-        pass
+def scrape(locationa):
+    global location, num_pages, driver
     
-def server_kick(driver):
-    """
-    Finds if the server has kicked us out of the website and refreshes the page if it has after waiting a minute.
-
-    Parameters:
-    driver (selenium.webdriver): The webdriver instance.
-
-    Returns:
-    None
-    """
-    # search for an h1 with the text "SENTIMOS LA INTERRUPCIÓN" if it exists wait a minute and refresh the page
-    try:
-        WebDriverWait(driver, 0.3).until(
-            EC.presence_of_element_located((By.XPATH, '//h1[text()="SENTIMOS LA INTERRUPCIÓN"]'))
-        )
-        sanity_check(driver)
-    except TimeoutException:
-        pass
-
-def scrape(location):
-    """
-    Extracts the properties from the given soup.
-
-    Parameters:
-    soup (bs4.BeautifulSoup): The soup to extract the properties from.
-    n_pages (int): The number of pages to extract the properties from.
-    driver (selenium.webdriver): The webdriver instance.
-    actions (selenium.webdriver.common.action_chains.ActionChains): The ActionChains instance.
-
-    Returns:
-    list: A list of Property objects.
-    """
-    # Set up the Chrome driver
-    options = webdriver.ChromeOptions()
-    options.add_argument('--ignore-certificate-errors')
-    driver = webdriver.Chrome(options=options)
+    driver = create_driver()
+    
+    print("Buscando en fotocasa zona: " + locationa + "...")
 
     # split
-    location = location.split(',')
+    location = locationa.split(',')
 
-    # Navigate to the website
-    driver.get('https://www.fotocasa.es/es')
+    while True:
+        try:
+            driver.get('https://www.fotocasa.es/es')
+            break
+        except MaxRetryError as e:
+            print(e)
+            sanity_check()
     actions = ActionChains(driver)
-    remove_cookie_banner(driver)
-    search_location(location[0] + ", " + location[1], driver)
-    scroll_down(driver, actions)
-    soup = BeautifulSoup(driver.page_source, features="lxml")
-    n_pages = min(number_of_pages(soup), 6)
-    if not n_pages or n_pages == 0:
+    remove_cookie_banner()
+    search_location()
+    scroll_down(actions)
+    while True:
+        try:
+            soup = BeautifulSoup(driver.page_source, features="lxml")
+            break
+        except MaxRetryError as e:
+            print(e)
+            sanity_check()
+    num_pages = min(number_of_pages(soup), 35)
+    if not num_pages or num_pages == 0:
         return {}
-    get_top_bar(driver, actions)
-    properties = extract_properties(soup, n_pages, driver, actions)
+    get_top_bar(actions)
+    properties = extract_properties(soup, actions)
     driver.quit()
     return properties

@@ -30,3 +30,6 @@ def property_extraction(location = None, autonomous_community = None):
     #processing.delete_from_mongo()
     for location in locations:
         location_loop(location)
+        
+if __name__ == "__main__":
+    property_extraction(autonomous_community = "Asturias")

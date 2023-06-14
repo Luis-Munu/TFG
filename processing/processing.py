@@ -3,7 +3,7 @@ import property_statistics
 import zone_statistics
 
 
-def main():
+def processing():
     # Load properties and zones
     properties = loader.load_properties()
     zones = loader.load_zones()
@@ -34,4 +34,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    processing()

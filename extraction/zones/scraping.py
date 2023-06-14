@@ -13,6 +13,14 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from fake_useragent import UserAgent
+
+import logging
+
+#disable all info and warnings from selenium
+logging.disable(logging.INFO)
+logging.disable(logging.WARNING)
+logging.disable(logging.CRITICAL)
 
 """
     Script used to get the tree hierarchy of zones from the fotocasa website.
@@ -23,13 +31,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 # Set up the Chrome driver
 options = webdriver.ChromeOptions()
-
-# Set up the Chrome driver
-options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
-options.add_argument("disable-blink-features=AutomationControlled")
-options.add_argument('--headless')
+options.disable_blink_features = 'AutomationControlled'
+options.add_experimental_option("excludeSwitches", ["enable-automation"])
+options.add_experimental_option("useAutomationExtension", False) 
+options.allow_running_insecure_content = True
+options.add_argument(f'user-agent={UserAgent().random}')
+#options.add_argument('--headless')
+options.log_level = 2
 driver = webdriver.Chrome(options=options)
+driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})") 
 
 # Base URL 
 base_url = 'https://www.fotocasa.es/indice-precio-vivienda'
@@ -70,11 +81,12 @@ def get_provinces():
     provinces = driver.find_elements(By.XPATH, '//a[@class="popular-search_link"]')
     # Get the urls of the provinces
     provinces_urls = [province.get_attribute('href') for province in provinces]
+    provinces_urls = [provinces_urls[14]]
 
     # Get the text of the provinces
     provinces_names = [province.text for province in provinces]
     provinces_names = [province.replace('Precio viviendas ', '') for province in provinces_names]
-
+    provinces_names = [provinces_names[14]]
 
     for province in provinces_names: zones[province] = {}
 
@@ -196,9 +208,10 @@ def calm_down():
     """
     Causes a delay and refreshes the driver to avoid triggering anti-scraping measures.
     """
-    time.sleep(10)
+    time.sleep(60)
+    driver.execute_cdp_cmd("Network.setUserAgentOverride", {"userAgent": UserAgent().random})
     driver.refresh()
-    time.sleep(10)
+    time.sleep(60)
 
 def get_zone_stats():
     """
@@ -267,7 +280,6 @@ def get_zone(zone_url, parent_zone, community, depth):
     time.sleep(1)
     if any(banned_word in zone_url for banned_word in['calle', 'avenida', 'plaza', 'paseo', 'pasaje']):
         return zone
-    if depth > 2: return zone
 
     time.sleep(2)
     global_timer += 1
@@ -344,3 +356,6 @@ def name_extraction():
     save_to_mongo(locations)
 
     driver.close()
+    
+if __name__ == "__main__":
+    name_extraction()

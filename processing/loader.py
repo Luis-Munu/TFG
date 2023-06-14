@@ -25,8 +25,8 @@ def load_properties():
     """
     properties = pd.DataFrame(list(dbproperties.find()))
     properties = properties.drop_duplicates(subset=['url'])
-    properties["city"] = properties["city"].apply(unidecode)
-    properties["address"] = properties["address"].apply(unidecode)
+    properties["city"] = properties["city"].apply(unidecode).apply(lambda x: x.title())
+    properties["address"] = properties["address"].apply(unidecode).apply(lambda x: x.title())
     return properties
 
 def load_zones():
@@ -38,6 +38,13 @@ def load_zones():
     """
     zones = [location for location in dbzones.find()][0]
     zones.pop('_id')
+    
+    # find if any zone is called Corveras de Asturias
+    # if so, rename it to Corvera de Asturias
+    for zone in zones.values():
+        zone["name"] = zone["name"].title()
+        zone["parent_zone"] = zone["parent_zone"].title()
+    
     zones = find_properties(zones, load_properties())
     
     def data_conv(zone):
@@ -110,6 +117,7 @@ def link_datasets(properties, zones):
     Returns:
         pandas.DataFrame: The updated properties DataFrame.
     """
+    
     for _, zone in zones.iterrows():
         if "properties" in zone:
             for property in zone["properties"]:
@@ -137,7 +145,8 @@ def find_properties(zones, properties):
             zone["subzones"] = find_properties(zone["subzones"], properties)
         
         matching_properties = properties[(properties["city"] == unidecode(zone["parent_zone"])) & (properties["address"] == unidecode(zone["name"]))]
-        
+        if matching_properties.empty and "subzones" in zone and len(zone["subzones"]) == 0:
+            matching_properties = properties[(properties["city"] == unidecode(zone["name"])) & (properties["address"] == unidecode(zone["name"]))]
         if "properties" not in zone:
             zone["properties"] = []
         zone["properties"].extend(matching_properties["_id"].tolist())
@@ -183,12 +192,20 @@ def find_zone_by_name(zones, city, name):
         return zone_cache[key]
 
     name_uni = unidecode(name); city_uni = unidecode(city)
+    #caso 1: coinciden nombre y ciudad
     zone = zones.query("name == @name_uni and parent_zone == @city_uni")
     if zone.empty:
+        #caso 2: si el parent zone es ambas
         zone = zones.query(f"(name == @name_uni or parent_zone == @name_uni) and parent_zone == @city_uni")
         if zone.empty:
-            zone_cache[key] = None
-            return None
+            #caso 3: si el nombre es ambas
+            zone = zones.query("name == @name_uni and name== @city_uni")
+            if zone.empty:
+                #caso 4: si el padre es la ciudad, y la zona no esta guardada.
+                zone = zones.query("name == @city_uni")
+                if zone.empty:
+                    zone_cache[key] = None
+                    return None
 
     zone = zone.iloc[0]
     result = zone.to_dict()

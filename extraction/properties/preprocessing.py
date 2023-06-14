@@ -61,6 +61,11 @@ def get_locations_autonomous_community(autonomous_community):
             names.append(location['name'] + ', ' + location['parent_zone'].replace(" Provincia", ""))
             names.extend(get_subzones(location))
 
+    # find the index of 'Corvera De Asturias, Asturias Provincia'
+    index = names.index('Corvera De Asturias, Asturias Provincia')
+    # get only that one
+    names = names[index:index+1]
+    
     return names
 
 def explode_attributes(properties):
@@ -140,7 +145,8 @@ def remove_duplicates():
     # save the new data to the properties collection deleting the old one
     collection.delete_many({})
     records = df.to_dict('records')
-    collection.insert_many(records)
+    if len(records) > 0:
+        collection.insert_many(records)
 
 def append_to_csv(df):
     """
